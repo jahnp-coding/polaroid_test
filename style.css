@@ -1,6 +1,6 @@
 html {
   box-sizing: border-box;
-  font-family: "Inspiration";
+  font-family: "Inria+Sans";
 }
 
 *,
@@ -23,7 +23,7 @@ body {
 }
 
 .polaroid {
-  width: 80vmin;
+  width: 90vmin;
   height: 60vmin;
   background-color: #f0f0f0;
   border-radius: 0.1rem;

@@ -1,0 +1,52 @@
+html {
+  box-sizing: border-box;
+  font-family: "Inspiration";
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.polaroid {
+  width: 80vmin;
+  height: 60vmin;
+  background-color: #f0f0f0;
+  border-radius: 0.1rem;
+  box-shadow: 0.1rem 0.1rem 0.3rem rgba(17, 17, 17, 0.35);
+  transform: rotate(-7deg);
+}
+
+.polaroid__image {
+  width: 90%;
+  height: 80%;
+  margin: 5%;
+  margin-bottom: 2.5%;
+  background: url("https://images.pexels.com/photos/2747893/pexels-photo-2747893.jpeg")
+    center center no-repeat;
+  background-size: cover;
+  border-radius: 0.1rem;
+  box-shadow: inset 0 0 0.25rem rgba(67, 67, 67, 0.35);
+}
+
+.polaroid__caption {
+  color: #555;
+  font-weight: 500;
+  font-size: 3vmin;
+  text-align: center;
+  opacity: 0.8;
+}
